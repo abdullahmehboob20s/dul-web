@@ -1,7 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown, IoMdArrowDropdown } from "react-icons/io";
 
-function Accordion({ title, children }) {
+function Accordion({
+  title,
+  children,
+  buttonClassName = "flex items-center justify-between w-full space-x-6 py-3 lg:py-1_4vw text-left fs-24px text-gray-1",
+  className = "border-b-1px",
+}) {
   const [isAccordionOpen, setIsAccordion] = useState(false);
   const accordionMenuRef = useRef(null);
 
@@ -15,12 +20,12 @@ function Accordion({ title, children }) {
   }, [isAccordionOpen]);
 
   return (
-    <div className="border-b-1px">
+    <div className={className}>
       <button
-        className="flex items-center justify-between w-full space-x-6 py-3 lg:py-1_4vw"
+        className={buttonClassName}
         onClick={() => setIsAccordion((val) => !val)}
       >
-        <span className="text-left fs-24px text-gray-1">{title}</span>
+        <span>{title}</span>
         <span className="flex min-w-[16px] lg:min-w-[28px] 2xl:min-w-[35px] h-[16px] lg:h-[28px] 2xl:h-[35px] relative">
           <span
             className={`absolute top-1/2 left-0 -translate-y-1/2 w-full h-[2px] bg-gray-1`}
