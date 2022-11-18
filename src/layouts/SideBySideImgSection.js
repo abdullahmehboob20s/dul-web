@@ -1,7 +1,12 @@
 import useMediaQuery from "hooks/useMediaQuery";
 import React from "react";
 
-function SideBySideImgSection({ children, img, reverse = false }) {
+function SideBySideImgSection({
+  children,
+  img,
+  reverse = false,
+  SideComponent,
+}) {
   const isAbove1024px = useMediaQuery("(min-width: 1024px)");
 
   return (
@@ -20,9 +25,13 @@ function SideBySideImgSection({ children, img, reverse = false }) {
         <div className="flex flex-col justify-center">{children}</div>
       )}
 
-      <div className="min-h-[40.995607613469986vw]">
-        <img src={img} className="w-full h-full object-cover" alt="" />
-      </div>
+      {SideComponent ? (
+        <SideComponent />
+      ) : (
+        <div className="min-h-[40.995607613469986vw]">
+          <img src={img} className="w-full h-full object-cover" alt="" />
+        </div>
+      )}
 
       {reverse && (
         <div className="flex flex-col justify-center">{children}</div>
