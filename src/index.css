@@ -118,23 +118,23 @@ a {
     }
 
     .fs-24px {
-      @apply text-[1.7569546120058566vw];
+      @apply text-[min(24px,1.7569546120058566vw)];
     }
 
     .fs-16px {
-      @apply text-[1.171303074670571vw];
+      @apply text-[min(1rem,1.171303074670571vw)];
     }
 
     .fs-20px {
-      @apply text-[1.4641288433382138vw];
+      @apply text-[min(20px,1.4641288433382138vw)];
     }
 
     .fs-18px {
-      @apply text-[1.3177159590043923vw];
+      @apply text-[min(18px,1.3177159590043923vw)];
     }
 
     .fs-14px {
-      @apply text-[1.0248901903367496vw];
+      @apply text-[min(14px,1.0248901903367496vw)];
     }
   }
 }
