@@ -3,7 +3,7 @@ import React from "react";
 
 function PropertyInvestment() {
   return (
-    <section className="section-container grid gap-8 lg:gap-0 lg:grid-cols-2">
+    <section className="section-container two-columns">
       <div>
         <h5 className="font-helvetica fs-24px">
           Property Investment through SMSF

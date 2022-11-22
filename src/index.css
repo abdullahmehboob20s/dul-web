@@ -112,6 +112,25 @@ a {
     @apply text-sm;
   }
 
+  /* BUTTONS */
+  .btn-primary-default {
+    @apply border-2 border-wodden-purple rounded-full px-8 lg:px-1vw py-0_8vw fs-18px text-wodden-purple w-fit lg:w-full lg:max-w-[min(253.35px,18.546852122986824vw)] font-medium;
+  }
+  .btn-primary-2 {
+    @apply border-2 border-white rounded-full px-8 lg:px-1vw py-0_8vw fs-18px text-white w-fit lg:w-full lg:max-w-[min(253.35px,18.546852122986824vw)] font-medium;
+  }
+
+  .two-columns {
+    @apply grid gap-8 lg:gap-0 lg:flex;
+  }
+
+  .two-columns > :first-child {
+    width: unset;
+  }
+  .two-columns > :nth-child(2) {
+    width: unset;
+  }
+
   @screen lg {
     .section-title {
       font-size: min(28px, 1.45vw);
@@ -135,6 +154,18 @@ a {
 
     .fs-14px {
       @apply text-[min(14px,1.0248901903367496vw)];
+    }
+
+    .two-columns {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .two-columns > :first-child {
+      width: min(622.25px, 100%);
+    }
+    .two-columns > :nth-child(2) {
+      width: min(622.25px, 100%);
     }
   }
 }

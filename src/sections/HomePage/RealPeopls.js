@@ -10,7 +10,7 @@ function RealPeopls() {
 
   return (
     <section>
-      <div className="section-container grid gap-2 lg:gap-0 lg:grid-cols-2 mb-8 lg:mb-5vw">
+      <div className="section-container two-columns mb-8 lg:mb-5vw">
         <div>
           <p className="font-helvetica fs-24px text-wodden-purple">
             Real people, with real results.
@@ -66,10 +66,10 @@ function RealPeopls() {
         ></div>
       </div>
 
-      <div className="section-container grid lg:grid-cols-2 gap-6 lg:gap-6vw">
+      <div className="section-container two-columns">
         <div>
           <p className="fs-24px text-wodden-purple font-helvetica">
-            We're your SMSF property investment experts.
+            We're your SMSF property <br /> investment experts.
           </p>
         </div>
         <div>
