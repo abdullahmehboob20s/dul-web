@@ -4,7 +4,7 @@ import React from "react";
 function Quote() {
   return (
     <WoodenSection>
-      <p className="text-white font-helvetica text-center max-w-[60rem] lg:max-w-[60vw] w-full fs-18px">
+      <p className="text-white font-helvetica text-center max-w-[60rem] lg:max-w-[min(1245.56px,60vw)] w-full fs-18px">
         “The guys at Ten Squared were awesome from start to finish. Anyone
         working shift work in the mines knows how hard it is to get anything
         done outside of work. The guys took care of every single thing for me

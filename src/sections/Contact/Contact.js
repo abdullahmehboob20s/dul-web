@@ -4,7 +4,7 @@ import React from "react";
 function Contact() {
   return (
     <section>
-      <div className="section-container grid gap-6 lg:gap-0 lg:grid-cols-2">
+      <div className="section-container two-columns">
         <div></div>
 
         <form className="space-y-3 lg:space-y-1vw">

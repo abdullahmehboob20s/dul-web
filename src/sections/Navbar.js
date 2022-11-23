@@ -86,9 +86,9 @@ function Navbar() {
           isMenuVisibile ? "overflow-auto" : "overflow-hidden"
         } transition-all duration-300`}
       >
-        <div className="mt-2 lg:mt-0_8vw section-container">
+        <div className="mt-2 lg:mt-[min(1rem,0.8vw)] section-container">
           {isAbove1024px ? (
-            <div className="py-8 lg:py-3vw border-t-2 border-white grid gap-9 lg:gap-0 lg:grid-cols-[1fr_1fr_auto]">
+            <div className="py-8 lg:py-[min(6rem,3vw)] border-t-2 border-white grid gap-9 lg:gap-0 lg:grid-cols-[1fr_1fr_auto]">
               <div className="space-y-3 lg:space-y-1_4vw">
                 <a
                   href="/"

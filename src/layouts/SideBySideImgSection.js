@@ -11,14 +11,14 @@ function SideBySideImgSection({
 
   return (
     <section
-      className={`grid gap-10 sm:gap-12 lg:gap-6vw ${
+      className={`lg:space-x-[min(77px,5.636896046852123vw)] ${
         reverse
           ? `${
               isAbove1024px ? "pr-[10.980966325036603vw]" : "section-container"
-            } lg:grid-cols-[1fr_.7fr]`
+            } two-columns`
           : `${
               isAbove1024px ? "pl-[10.980966325036603vw]" : "section-container"
-            } lg:grid-cols-[.7fr_1fr]`
+            } two-columns`
       }`}
     >
       {!reverse && (
@@ -28,9 +28,11 @@ function SideBySideImgSection({
       {SideComponent ? (
         <SideComponent />
       ) : (
-        <div className="min-h-[40.995607613469986vw]">
-          <img src={img} className="w-full h-full object-cover" alt="" />
-        </div>
+        <img
+          src={img}
+          className="w-full h-auto lg:h-[min(695.59px,40.995607613469986vw)] object-cover"
+          alt=""
+        />
       )}
 
       {reverse && (

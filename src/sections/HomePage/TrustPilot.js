@@ -6,11 +6,11 @@ function TrustPilot() {
       <div className="section-container flex flex-col items-center">
         <img
           src="images/trust-pilot.png"
-          className="max-w-[9rem] lg:max-w-[15.812591508052709vw] w-full border-2 border-transparent mb-5 lg:mb-2vw"
+          className="max-w-[9rem] lg:max-w-[min(216.68px,15.812591508052709vw)] w-full border-2 border-transparent mb-5 lg:mb-2vw"
           alt=""
         />
 
-        <p className="text-center fs-24px max-w-[18rem] lg:max-w-[30vw] font-helvetica">
+        <p className="text-center fs-24px max-w-[18rem] lg:max-w-[min(500px,30vw)] font-helvetica">
           We've helped 100’s of individuals, place wealth within reach.
         </p>
       </div>

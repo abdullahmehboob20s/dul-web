@@ -4,7 +4,7 @@ import React from "react";
 function TailoredOpportunities() {
   return (
     <section>
-      <div className="section-container grid gap-6 lg:gap-0 lg:grid-cols-2">
+      <div className="section-container two-columns">
         <div>
           <p className="fs-24px text-wodden-purple font-helvetica">
             Welcome to tailored opportunities.

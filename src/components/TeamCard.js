@@ -5,7 +5,7 @@ function TeamCard({ img, title, subtitle, desc }) {
     <div>
       <img
         src={img}
-        className="aspect-square lg:aspect-auto lg:h-[30vw] object-cover w-full mb-5 lg:mb-2vw"
+        className="aspect-square lg:aspect-auto lg:h-[min(677.78px,30vw)] object-cover w-full mb-5 lg:mb-2vw"
         alt=""
       />
 
