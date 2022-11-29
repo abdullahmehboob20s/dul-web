@@ -13,39 +13,39 @@ import Navbar from "sections/Navbar";
 
 function HomePage() {
   return (
-    // <div>
-    //   <Navbar />
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <Hero />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <PropertyInvestment />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <TrustPilot />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <RealPeopls />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <GenuineContact />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <Strategy />
-    //   </div>
-    //   <div className="mb-16 lg:mb-7vw">
-    //     <Purpos />
-    //   </div>
-    //   <div className="mb-20 lg:mb-9vw">
-    //     <WT />
-    //   </div>
-    //   <div className="mb-20 lg:mb-9vw">
-    //     <FAQ />
-    //   </div>
-    //   <Footer />
-    // </div>
+    <div>
+      <Navbar />
+      <div className="mb-16 lg:mb-7vw">
+        <Hero />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <PropertyInvestment />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <TrustPilot />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <RealPeopls />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <GenuineContact />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <Strategy />
+      </div>
+      <div className="mb-16 lg:mb-7vw">
+        <Purpos />
+      </div>
+      <div className="mb-20 lg:mb-9vw">
+        <WT />
+      </div>
+      <div className="mb-20 lg:mb-9vw">
+        <FAQ />
+      </div>
+      <Footer />
+    </div>
 
-    <img src="images/homepage.png" className="w-full" alt="" />
+    // <img src="images/homepage.png" className="w-full" alt="" />
   );
 }
 
